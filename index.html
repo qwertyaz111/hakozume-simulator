@@ -1962,7 +1962,7 @@ function shareToX() {
     const nB = document.getElementById('nameB').value || 'B';
     const hA = parseFloat(document.getElementById('heightA').value) || 158.0;
     const hB = parseFloat(document.getElementById('heightB').value) || 171.5;
-    const text = `${nB}(${hB.toFixed(1)}cm)と${nA}(${hA.toFixed(1)}cm)を箱詰め！\n#箱詰めシミュレーター\n`;
+    const text = `${nB}(${hB.toFixed(1)}cm)と${nA}(${hA.toFixed(1)}cm)が箱詰め！\n#箱詰めシミュレーター\n`;
     window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(window.location.href)}`, '_blank');
 }
 
